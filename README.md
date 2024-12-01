@@ -27,19 +27,19 @@ This repository contains the source code and documentation for the Plant Health 
 
 ```plaintext
 ├── Sensors/
-│   ├── GPS/          # GPS module
-│   ├── Color-Sensor/ # RGB color sensor (TCS34725)
-│   ├── Accelerometer/ # Accelerometer (MMA8451Q)
-│   ├── Humidity-Temperature/ # Temp & Humidity sensor (Si7021)
-│   ├── LightSensor/  # Light intensity sensor
-│   ├── MoistureSensor/ # Soil moisture sensor
+│   ├── GPS/                  // GPS module
+│   ├── Color-Sensor/         // RGB color sensor (TCS34725)
+│   ├── Accelerometer/        // Accelerometer sensor (MMA8451Q)
+│   ├── Humidity-Temperature/ // Humidity & Temp sensor (Si7021)
+│   ├── LightSensor/          // Ambient light sensor
+│   ├── MoistureSensor/       // Soil moisture sensor
 ├── Threads/
-│   ├── I2C/          # Handles I2C sensors
-│   ├── IO/           # Handles analog sensors & GPS
-│   ├── PWM/          # RGB LED control
-├── Structs/          # Violation structs
-├── main.cpp          # Main application logic
-└── README.md         # Project overview
+│   ├── I2C/                  // Thread to handle I2C sensors
+│   ├── IO/                   // Thread for analog sensors & GPS
+│   ├── PWM/                  // Thread for RGB LED handling
+├── Structs/                  // Violation struct
+├── main.cpp                  // Main application logic
+└── README.md                 // Project overview and setup guide
 ```
 
 ---
