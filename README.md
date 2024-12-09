@@ -5,7 +5,8 @@ This repository contains the source code and documentation for the Plant Health 
 ---
 
 ## Features
-
+- Development board:
+  - **B-L072Z-LRWAN1
 - Monitors key environmental parameters:
   - **Temperature and Humidity** (Si7021)
   - **Soil Moisture** (SEN-13322)
