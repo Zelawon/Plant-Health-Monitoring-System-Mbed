@@ -76,7 +76,7 @@ This repository contains the source code and documentation for the Plant Health 
    - **Blue LED**: Light intensity or Z-axis acceleration violation.
    - **Combinations**:
      - **Green + Blue** for soil moisture.
-     - **Red + Green** for Y and Z acceleration violations.
+     - **Red + Green** for Y and Z acceleration violations. 
 
 ## License
 This project is licensed under the GPL-3.0 License. See the `LICENSE` file for details.
